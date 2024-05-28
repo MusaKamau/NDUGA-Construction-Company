@@ -823,7 +823,11 @@ Show Events Carousel
   content: '\f061';
 }
 
-
+footer .auto-style2 {
+  background: #0099ff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);}
 /*
 ---------------------------------------------
 Amazing Venues
@@ -2034,7 +2038,7 @@ Tickets Page
 }
 
 .tickets-page .ticket-item .down-content {
-  background-color: #fafafa;
+  background-color: #0099ff;
   padding: 30px;
   ;
 }
@@ -2048,14 +2052,14 @@ Tickets Page
 .tickets-page .ticket-item .down-content h4 {
   font-size: 22px;
   font-weight: 700;
-  color: fff;
+  color: #fff;
   margin-top: 10px;
   margin-bottom: 25px;
 }
 
 .tickets-page .ticket-item .down-content ul li {
   font-size: 14px;
-  color: fff;
+  color: black;
   font-weight: 300;
   margin-bottom: 15px;
 }
