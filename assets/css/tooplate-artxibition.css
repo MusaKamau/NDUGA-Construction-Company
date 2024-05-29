@@ -316,11 +316,11 @@ header
   background: linear-gradient(to right, #000080, #0099ff);
 }
 
-body {
-  background: radial-gradient(circle, #000080, #0099ff);
+.body {
+  background: radial-gradient(circle, #0099ff, #000080);
 }
 
-button {
+body {
   background: conic-gradient(from 40deg, #000080, #0099ff, #0099ff, #000080);
 }
 
