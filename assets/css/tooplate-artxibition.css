@@ -252,11 +252,12 @@ body {
   color: #fff;
 }
 
+
 .main-white-button a {
   display: inline-block;
   font-size: 14px;
   padding: 12px 18px;
-  background-color: black;
+  background-color: #4169e1;
   color: #fff;
   text-align: center;
   font-weight: 500;
@@ -311,9 +312,32 @@ body {
 header
 --------------------------------------------- 
 */
+.header-area, .pre-header {
+  background: linear-gradient(to right, #000080, #0099ff);
+}
+
+footer {
+  background: radial-gradient(circle, #000080, #0099ff);
+}
+
+body {
+  background: conic-gradient(from 40deg, #000080, #4169e1, #0099ff, #000080);
+}
+
+button {
+  background: repeating-linear-gradient(
+    45deg,
+    #000080,
+    #000080 10px,
+    #0099ff 10px,
+    #0099ff 20px
+  );
+}
+
+
 
 .pre-header {
-  background-color: #000080;
+
   padding: 10px 0px;
 }
 
@@ -338,7 +362,7 @@ header
   right: 0px;
   z-index: 100;
   height: 80px;
-  background: #000080;
+
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -708,8 +732,8 @@ banner
 
 .main-banner h6 {
   font-size: 14px;
-  color: #fff;
-  font-weight: 300;
+  color: black;
+  font-weight: 600;
 }
 
 .main-banner h2 {
