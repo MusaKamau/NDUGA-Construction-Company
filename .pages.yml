@@ -1,17 +1,17 @@
 # .pages.yml
 version: 1
-title: NDUGA Construction Ltd
+title: NDUGA CONSTRUCTION LTD - Home
 root: /
 public: /public
 
 # Site Configuration
 site:
-  title: "NDUGA Construction Ltd"
-  description: "This is an awesome website built with HTML"
+  title: "NDUGA CONSTRUCTION LTD"
+  description: "We are Building and Civil Engineering Experts"
   base_url: "https://yourdomain.com"
   lang: "en"
   charset: "utf-8"
-  author: "Your Name"
+  author: "Tooplate"
 
 # Theme Configuration
 theme:
@@ -27,10 +27,40 @@ build:
 navigation:
   - label: Home
     url: "/index.html"
-  - label: About
+  - label: About Us
     url: "/about.html"
-  - label: Contact
-    url: "/contact.html"
+  - label: Services
+    url: "/rent-venue.html"
+  - label: Featured Projects
+    url: "/tickets.html"
+  - label: Contacts
+    url: "/shows-events.html"
+
+# Metadata
+metadata:
+  - name: viewport
+    content: "width=device-width, initial-scale=1, shrink-to-fit=no"
+  - name: author
+    content: "Tooplate"
+  - name: description
+    content: ""
+  - name: keywords
+    content: "construction, building, civil engineering, finishing services, NDUGA Construction"
+  - link:
+      rel: "stylesheet"
+      href: "https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+  - link:
+      rel: "stylesheet"
+      href: "assets/css/bootstrap.min.css"
+  - link:
+      rel: "stylesheet"
+      href: "assets/css/font-awesome.css"
+  - link:
+      rel: "stylesheet"
+      href: "assets/css/owl-carousel.css"
+  - link:
+      rel: "stylesheet"
+      href: "assets/css/tooplate-artxibition.css"
 
 # Plugins
 plugins:
@@ -38,17 +68,6 @@ plugins:
     options:
       changefreq: "weekly"
       priority: 0.5
-
-# Metadata
-metadata:
-  - name: viewport
-    content: "width=device-width, initial-scale=1.0"
-  - name: author
-    content: "Your Name"
-  - name: description
-    content: "This is an awesome website built with HTML"
-  - name: keywords
-    content: "html, website, awesome"
 
 # Custom 404 Page
 error_pages:
