@@ -1,0 +1,63 @@
+# .pages.yml
+version: 1
+title: NDUGA Construction Ltd
+root: /
+public: /public
+
+# Site Configuration
+site:
+  title: "NDUGA Construction Ltd"
+  description: "This is an awesome website built with HTML"
+  base_url: "https://yourdomain.com"
+  lang: "en"
+  charset: "utf-8"
+  author: "Your Name"
+
+# Theme Configuration
+theme:
+  name: default
+  layout: main
+
+# Build Configuration
+build:
+  - name: Compile HTML
+    command: cp -r src/* public/
+
+# Navigation
+navigation:
+  - label: Home
+    url: "/index.html"
+  - label: About
+    url: "/about.html"
+  - label: Contact
+    url: "/contact.html"
+
+# Plugins
+plugins:
+  - name: sitemap
+    options:
+      changefreq: "weekly"
+      priority: 0.5
+
+# Metadata
+metadata:
+  - name: viewport
+    content: "width=device-width, initial-scale=1.0"
+  - name: author
+    content: "Your Name"
+  - name: description
+    content: "This is an awesome website built with HTML"
+  - name: keywords
+    content: "html, website, awesome"
+
+# Custom 404 Page
+error_pages:
+  404: /404.html
+
+# Exclude files and directories
+exclude:
+  - .git
+  - README.md
+  - node_modules
+  - .gitignore
+  - .pages.yml
