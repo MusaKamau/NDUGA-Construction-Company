@@ -145,7 +145,7 @@ html,
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #0080ff;
+  background-color: #fff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -177,7 +177,7 @@ ul {
 p {
   font-size: 14px;
   line-height: 25px;
-  color:#fff;
+  color:#000080;
   font-weight: 300;
 }
 
@@ -188,8 +188,8 @@ global styles
 */
 html,
 body {
-  background: #000080;
-  color: #fff;
+  background: #fff;
+  color: black;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -233,7 +233,7 @@ body {
 .section-heading h2 {
   font-size: 30px;
   font-weight: 800;
-  color:#fff;
+  color:#000080;
   text-transform: capitalize;
   letter-spacing: 0.5px;
   margin-top: 0px;
@@ -273,7 +273,7 @@ body {
   display: inline-block;
   font-size: 14px;
   padding: 12px 18px;
-  background-color: #00d9ff;
+  background-color: #000080;
   color: #fff;
   text-align: center;
   font-weight: 500;
@@ -312,16 +312,16 @@ body {
 header
 --------------------------------------------- 
 */
-.header-area, .pre-header, footer {
+footer, .pre-header {
   background: linear-gradient(to right, #000080, #0099ff);
 }
 
-.body {
+/*.body, .pre-header {
   background: radial-gradient(circle, #0099ff, #000080);
 }
 
-body {
-  background: conic-gradient(from 40deg, #000080, #0099ff, #0099ff, #000080);
+.body {
+  background: conic-gradient(from 40deg, #fff, #0099ff, #fff, #000080);
 }
 
 .button {
@@ -334,7 +334,7 @@ body {
   );
 }
 
-
+*/
 
 .pre-header {
 
@@ -376,7 +376,7 @@ body {
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: #fff;
+  color: #000080;
   font-size: 28px;
   font-weight: 700;
   float: left;
@@ -388,7 +388,7 @@ body {
 
 .header-area .main-nav .logo em {
   font-style: normal;
-  color: #fff;
+  color: #000080;
   font-weight: 900;
 }
 
@@ -414,7 +414,7 @@ body {
   display: block;
   font-weight: 500;
   font-size: 14px;
-  color: #fff;
+  color: #000080;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -427,7 +427,7 @@ body {
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color:#fff !important;
+  color:black	!important;
   opacity: 1;
 }
 
@@ -571,7 +571,7 @@ body {
 }
 
 .header-area.header-sticky .nav li a.active {
-  color:#fff;
+  color: pink;
 }
 
 @media (max-width: 1200px) {
@@ -732,7 +732,7 @@ banner
 
 .main-banner h6 {
   font-size: 14px;
-  color: black;
+  color: #000080;
   font-weight: 600;
 }
 
@@ -847,11 +847,22 @@ Show Events Carousel
   content: '\f061';
 }
 
-footer .auto-style2 {
+section .auto-style2 {
   background: #0099ff;
+  color: #000080;
   margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%);}
+
+
+section .auto-style, section li {
+
+  color: #000080;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);}
+
+
 /*
 ---------------------------------------------
 Amazing Venues
@@ -865,29 +876,30 @@ Amazing Venues
 .amazing-venues .left-content h4 {
   font-size: 30px;
   font-weight: 800;
-  color: #fff;
+  color: #000080;
   margin-bottom: 20px;
 }
 
 .amazing-venues .right-content {
   margin-left: 30px;
+  
 }
 
 .amazing-venues .right-content h5 i {
-  color: #fff;
+  color: #000080;
   margin-right: 5px;
 }
 
 .amazing-venues .right-content h5 {
   font-size: 22px;
   font-weight: 800;
-  color: #fff;
+  color: #000080;
   margin-bottom: 25px;
 }
 
 .amazing-venues .right-content span {
   font-size: 14px;
-  color: #fff;
+  color: #000080;
   line-height: 25px;
   font-weight: 300;
   display: block;
@@ -896,6 +908,7 @@ Amazing Venues
 
 .map-image img {
   width: 100%;
+    
   overflow: hidden;
 }
 
@@ -966,7 +979,7 @@ Venues & Tickets
 .venue-item .down-content .left-content {
   width: 31%;
   float: left;
-  background-color: rgba(124, 131, 139, 0.3);
+  background-color: #000080;
   height: 100%;
   display: inline-block;
   position: absolute;
@@ -1130,7 +1143,7 @@ Subscribe
 
 .subscribe h4 {
   font-size: 18px;
-  color: #fff;
+  color: #000080;
   font-weight: 600;
   margin-top: 10px;
 }
@@ -1160,7 +1173,7 @@ Subscribe
   display: inline-block;
   font-size: 14px;
   padding: 12px 18px;
-  background-color: #00d9ff;
+  background-color: #000080;
   color: #fff;
   text-align: center;
   font-weight: 500;
@@ -1342,7 +1355,7 @@ About Us Page
 }
 
 .about-item .down-content {
-  background-color: #fff;
+  background-color: #00d9ff;
   padding: 30px;
   border-right: 1px dotted #d7dadc;
   border-bottom: 1px dotted #d7dadc;
@@ -1351,7 +1364,7 @@ About Us Page
 .about-item .down-content h4 {
   font-size: 22px;
   font-weight: 700;
-  color:#fff;
+  color:#000080;
   margin-bottom: 20px;
 }
 
@@ -1382,14 +1395,14 @@ About Us Page
 .about-upcoming-shows h2 {
   font-size: 30px;
   font-weight: 800;
-  color:#fff;
+  color:#000080;
   margin-bottom: 25px;
 }
 
 .about-upcoming-shows h4 {
   font-size: 22px;
   font-weight: 700;
-  color:#fff;
+  color:#000080;
   margin-bottom: 25px;
   ;
 }
@@ -1570,7 +1583,7 @@ Rent Venue Page
 
 .page-heading-rent-venue h2 {
   font-size: 50px;
-  color: #fff;
+  color: #000080;
   font-weight: 800;
   margin-bottom: 15px;
 }
@@ -1652,8 +1665,9 @@ Rent Venue Page
 .rent-venue-tabs .tabs-content h4 {
   font-size: 30px;
   font-weight: 700;
-  color:#fff;
+  color:#000080;
   margin-bottom: 25px;
+    text-align: left;
 }
 
 .rent-venue-tabs .tabs-content ul.list {
@@ -1695,7 +1709,7 @@ Rent Venue Page
 
 .rent-venue-application .contact-form input,
 .rent-venue-application .contact-form textarea {
-  color: ##00bfff;
+  color: #000080;
   font-size: 13px;
   border: 1px solid #ddd;
   background-color: #fff;
@@ -1717,23 +1731,23 @@ Rent Venue Page
 
 .rent-venue-application .contact-form ::-webkit-input-placeholder {
   /* Edge */
-  color: #00bfff;
+  color: grey;
 }
 
 .rent-venue-application .contact-form :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #00bfff;
+  color: grey;
 }
 
 .rent-venue-application .contact-form ::placeholder {
-  color: #00bfff;
+  color: grey;
 }
 
 .rent-venue-application form .main-dark-button {
   display: inline-block;
   font-size: 14px;
   padding: 12px 18px;
-  background-color: #00d9ff;
+  background-color: #000080;
   color: #fff;
   text-align: center;
   font-weight: 500;
@@ -1759,6 +1773,7 @@ Shows Events Page
   background-repeat: no-repeat;
   padding: 110px 0px;
   text-align: center;
+  color: #000080;
 }
 
 .page-heading-shows-events-01 {
@@ -1772,7 +1787,7 @@ Shows Events Page
 
 .page-heading-shows-events h2 {
   font-size: 50px;
-  color: #fff;
+  color: #000080;
   font-weight: 800;
   margin-bottom: 15px;
 }
@@ -2024,11 +2039,10 @@ Tickets Page
   padding: 30px;
 }
 
-.tickets-page .search-box h4 {
+.page-heading-shows-events-01 .cool h2 {
   color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 8px;
+  font-weight: 800;
+  
 }
 
 .tickets-page .search-box select {
@@ -2071,7 +2085,7 @@ Tickets Page
 .tickets-page .heading h2 {
   font-size: 30px;
   font-weight: 800;
-  color:#fff;
+	color: #000080;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 80px;
@@ -2165,7 +2179,7 @@ Tickets Page
   display: inline-block;
   font-size: 14px;
   padding: 12px 20px;
-  background-color: #e6e7e8;
+  background-color: #000080;
   color:#fff;
   text-align: center;
   font-weight: 500;
@@ -2176,7 +2190,7 @@ Tickets Page
 .tickets-page .pagination ul li a:hover,
 .tickets-page .pagination ul li.active a {
   background-color: #00d9ff;
-  color: #fff !important;
+  color: #000080 !important;
 }
 
 
@@ -2598,6 +2612,7 @@ responsive
   .amazing-venues .right-content {
     margin-left: 0;
     margin-top: 45px;
+    
   }
 
   .subscribe,
