@@ -362,6 +362,10 @@ footer {
   color: #fff;
 }
 
+svg {
+	margin: -25px;
+}
+
 .header-area {
   position: relative;
   top: 0px;
@@ -600,7 +604,8 @@ footer {
 
   .header-area .main-nav .logo {
     color: #1e1e1e;
-    font-size: 16px;
+    font-size: 19px;
+	  margin: -1px;
   }
 
   .header-area.header-sticky .nav li a:hover,
