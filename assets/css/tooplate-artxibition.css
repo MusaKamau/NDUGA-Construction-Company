@@ -1168,14 +1168,14 @@ Coming Events
 .event-item .down-content h4 {
   font-size: 22px;
   font-weight: 700;
-  color:#fff;
+  color:#343434;
   margin-bottom: 25px;
   ;
 }
 
 .event-item .down-content ul li {
   font-size: 14px;
-  color:#fff;
+  color:#222222;
   font-weight: 300;
   margin-bottom: 15px;
   ;
@@ -1189,7 +1189,7 @@ Coming Events
   width: 20px;
   text-align: center;
   font-size: 18px;
-  color: #858b93;
+  color: #222222;
   display: inline-block;
 }
 
