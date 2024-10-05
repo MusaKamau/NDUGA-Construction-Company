@@ -928,6 +928,7 @@ Amazing Venues
 
 .amazing-venues {
   margin: 0px 0px;
+	background: #222222;
 }
 
 .amazing-venues .left-content h4 {
@@ -1200,7 +1201,7 @@ Subscribe
 */
 
 .subscribe {
-  background-color: #f7b705;
+  background: #222222;
   padding: 0px 0px;
 }
 
@@ -1312,7 +1313,7 @@ footer p.copyright {
   border-top: 1px solid #e4e4e4;
   margin-top: 30px;
   padding-top: 30px;
-  background: #222222;
+  
 }
 
 .sub-footer .logo span {
