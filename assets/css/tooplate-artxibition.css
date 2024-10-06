@@ -609,6 +609,15 @@ svg {
 	  line-height: 11px;
 	  }
 	 
+	 .main-banner {
+  background-image: url(../images/wall-0245.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Or try 'contain' for a different effect */
+  background-position: center;
+  text-align: center;
+  padding: 15% 0; /* Adjust the padding for better responsiveness */
+  position: relative;
+}
 .header-area .main-nav .logo em {
   font-style: normal;
   color: white;
@@ -766,7 +775,7 @@ banner
 --------------------------------------------- 
 */
 .main-banner {
-  background-image: url(../images/wall-02.jpg);
+  background-image: url(../images/wall-023.jpg);
   background-repeat: no-repeat;
   background-size: cover; /* Or try 'contain' for a different effect */
   background-position: center;
