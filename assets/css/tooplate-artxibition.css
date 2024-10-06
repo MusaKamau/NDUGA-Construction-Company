@@ -1,4 +1,4 @@
-﻿/*
+/*
 
 NDUGA CONSTRUCTION LTD
 
@@ -363,7 +363,7 @@ footer {
 }
 
 svg {
-	margin: -25px;
+	margin: -29px;
 }
 
 .header-area {
@@ -400,7 +400,7 @@ svg {
 
 .header-area .main-nav .logo em {
   font-style: normal;
-  color: black;
+  color: #222222;
   font-weight: 900;
 }
 
@@ -601,12 +601,42 @@ svg {
   .header-area .main-nav .nav li a.active:after {
     display: none;
   }
-
-  .header-area .main-nav .logo {
+.header-area .main-nav .logo {
     color: #1e1e1e;
-    font-size: 19px;
-	  margin: -1px;
+    font-size: 26px;
+	margin: -5px;
+	padding: 0px;
+	  line-height: 11px;
+	  }
+	 
+.header-area .main-nav .logo em {
+  font-style: normal;
+  color: white;
+  font-weight: 900;
+}	 
+	 
+.amazing-venues .left-content  {
+		  line-height: 0;
+		}
+.sub-footer .logo span svg {
+	margin: 1px;
+}
+  
+   #content1::after,
+    #content2::after {
+      content: "\A";
+      white-space: pre;
+      display: block;
+	  
+    }
+  header {
+	  background: radial-gradient(circle, chocolate, #f7b705);
   }
+  
+  .footery, subscribe, .show-events-carousel, .amazing-venues .left-content h4  {
+    display: none;
+  }
+
 
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -736,7 +766,7 @@ banner
 --------------------------------------------- 
 */
 .main-banner {
-  background-image: url(../images/Tools-16.jpg);
+  background-image: url(../images/wall-02.jpg);
   background-repeat: no-repeat;
   background-size: cover; /* Or try 'contain' for a different effect */
   background-position: center;
